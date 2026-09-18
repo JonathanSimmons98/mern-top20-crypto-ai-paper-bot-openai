@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # MERN Top-20 Crypto AI Paper Trading Bot (No Database)
 
 Educational MERN full-stack project for **paper trading only**. This version has **no MongoDB, no Mongoose, and no database connection at all**. Runtime state is kept in process memory. Restarting Node.js resets paper account, orders, snapshots, and bot-run history.
@@ -54,3 +55,7 @@ Keep all OpenAI keys in the server `.env` only; never expose them in React/clien
 ### 10 separate OpenAI caller files
 
 `server/openai/openai1.js` through `server/openai/openai10.js` each use a different environment variable (`OPENAI_API_KEY_1` through `OPENAI_API_KEY_10`). The AI engine rotates across the configured caller files. Never commit real API keys.
+=======
+# mern-top20-crypto-ai-paper-bot-openai
+MERN Top-20 Crypto AI Paper Trading Bot is a full-stack cryptocurrency paper-trading platform that monitors the top 20 cryptocurrencies, analyzes market data with technical indicators, generates AI-based trading signals, and simulates BUY/SELL trades without using real money.
+>>>>>>> cfdc356140e174df2b6b070d875f5446e962a853
